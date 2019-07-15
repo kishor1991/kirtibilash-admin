@@ -86,17 +86,12 @@ html, body {height:100%;}
 	margin-top:55px;
     display:flex;
 }
-.header img
-{
-	width:140%;
-	height:300px;
-	
-}
+
 .header p
 {
 	font-size:20px;
 	margin-top:50px;
-	margin-left:80px;
+	margin-left:100px;
 	text-align: justify;
 	color:#2E8B57;
 	
@@ -130,6 +125,50 @@ h3
 	color:#ffffff;
 	padding-left:10px;
 	}
+@media screen and (max-width: 980px) {
+
+    .menu a
+ {
+	 
+  text-align: center;
+  color:#ffffff !important;
+  border: 1px solid white !important;
+  border-radius:4px;
+  padding: 1px 8px !important;
+  margin-right: 8px;
+  text-decoration: none;
+  font-size: 19px !important;
+}
+  .header h1
+{
+	font-size: 35px;
+	color: red;
+	margin-left:10px;
+	margin-top:20px !important;
+	margin-bottom:0 !important;
+	line-height:10px;
+
+}
+.text-right
+{
+	margin-top:0 !important;
+	font-size: 15px;
+	word-spacing:4px!important;
+	margin-left:10px !important;
+}
+
+.header p
+{
+	font-size:20px;
+	margin-top:50px;
+	margin-left:0px;
+	margin-right: 10px;
+	text-align: justify;
+	color:#2E8B57;
+	
+}
+}
+
 .sell-product
 {
 	display:flex;
@@ -181,14 +220,11 @@ h3
 	margin-top:5px;
 	color:#ffffff;
 }
-.sell-product2 p a
+.sell-product2 p 
 {
-	text-decoration:none;
 	color:#ffffff;
-	margin-left:50px;
-	margin-top:90px !important;
-	font-size:70px;
-	
+	font-size: 70px;
+	padding-top: 30px;
 }
 
 .service-1
